@@ -1,0 +1,7 @@
+ul li {
+    list-style-type: none;
+    display: inline;
+    flex: 1;
+    margin: 5px;
+    background-color: blueviolet;
+  }
