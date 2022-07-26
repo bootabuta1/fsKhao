@@ -1,11 +1,15 @@
 import React from 'react'
 import Nav from './Nav'
-import Header from './Top'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Top from './Top'
+import TopUpWallet from './TopUpWallet'
+import NearBy from './Nearby'
 
 export default function Home() {
   return (
     <div>
-       <Nav/>
+       
+       <h1>Public Home</h1>
     </div>
   )
 }

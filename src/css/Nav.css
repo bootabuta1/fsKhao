@@ -1,7 +1,12 @@
-  .nav {
+  .header {
     background-color: #131921;
+  }
+
+  .nav {
+    
     display: flex;
     align-items: center;
+    padding-right: 0;
   }
   .logo {
     cursor: pointer;
@@ -15,6 +20,12 @@
     display: flex;
     flex: 1;
  }
+
+ .search-box-mobile {
+  display: flex;
+  flex: 1;
+  padding: 10px;
+}
 
  .search-input {
    height: 12px;
@@ -37,20 +48,31 @@
  .nav-link {
   color: white;
   text-decoration: none;
+  align-items: center;
  }
 
  .nav-options {
   display: flex;
   flex-direction: column;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+  border: solid #131921;
+  padding: 5px;
+ }
+
+ .nav-options:hover {
+  border: solid #f6fafc;
  }
 
  .nav-options-line-one {
-  font-size: 10px;
+  font-size: 12px;
  }
 
  .nav-options-line-two {
-   font-size: 13px;
-   font-weight: 800;
+   font-size: 15px;
+   font-weight: 900;
+ }
+
+ .download-app {
+  display: flex;
  }

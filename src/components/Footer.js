@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/Footer.css'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
@@ -7,15 +8,18 @@ export default function Footer() {
         flex:1, 
         lexDirection:"row",
         textAlign:"center",
-        color:"black"}}>
-          <hr/>  
+        textDecoration: "none",
+        padding: 10,
+        backgroundColor: "#131921",
+        color:"white"}}>
+          
           All Right Reserved @2022 Freshkhao
           <br/>
-        <ul style={{ }}>
-            <li>About US</li>
-            <li>Contact Us</li>
-            <li>Terms and Conditions</li>
-            <li>Privacy Policy</li>
+        <ul >
+            <Link to="/about-freshkhao"><li>About US</li></Link>
+            <Link to="/freshkhao-contact"><li>Contact Us</li></Link>
+            <Link to="/terms-conditions-freshkhao"><li>Terms and Conditions</li></Link>
+            <Link to="/freshkhao-privacy-policy"><li>Privacy Policy</li></Link>
         </ul>
         
       </div>
