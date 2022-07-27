@@ -1,5 +1,5 @@
 #!/bin/bash
 
 cd /home/ubuntu
-npm -f install
+npm install
 npm run build
