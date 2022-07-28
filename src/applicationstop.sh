@@ -1,1 +1,1 @@
-pm2 stop "npm run start" --name freshkhao
+pm2 stop "npm start" --name freshkhao
