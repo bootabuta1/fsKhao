@@ -1,8 +1,97 @@
+.footer {
+  background-color: #2e3333;
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.footer-container{
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 15x 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  
+}
 
-ul li {
+.footer-content-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.footer-parts{
+  flex: 1;
+  min-width: 224px;
+  background: hsla(0,0%,100%,.1);
+  background-origin: padding-box;
+  background-clip: border-box;
+  margin: 8px;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.footer-part {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.footer-part ul {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.footer-part ul li {
+    list-style-position: inside;
     list-style-type: none;
-    display: inline;
-    flex: 1;
-    margin: 5px;
+    display: flex;
+    flex-direction: column;
     color: aliceblue;
   }
+.footer-part ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-part ul li span {
+  font-size: 14px;
+  line-height: 19px;
+  padding-top: 10px;
+}
+
+.footer-part ul li :hover {
+  color: #00b8a9;
+}
+
+.footer-download-google {
+  width: 150px;
+  height: 50px;
+  margin-top: 10px;
+}
+.footer-download-apple {
+  width: 150px;
+  height: 50px;
+  margin-top: 15px;
+}
+.footer-bottom {
+  padding: 15px 5px;
+  display: flex;
+  color: hsla(0,0%,100%,.1);
+}
+.social-icon {
+  flex: .5;
+  text-align: left;
+}
+.social-icon a {
+  padding: 5px;
+  color: #fff;
+}
+.copyright {
+  padding: 3px;
+  flex: .5;
+  text-align: right;
+}
+

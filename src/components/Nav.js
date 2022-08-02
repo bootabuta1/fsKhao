@@ -39,7 +39,7 @@ export default function Nav() {
           </Link>
 
           <Link to='/track-freshkhao-order' className='nav-link'>
-              <div className='nav-options'>
+              <div className='nav-options' sx={{ color: '#fff' }}  >
                  <span className='nav-options-line-one'>Track </span>
                  <span className='nav-options-line-two'>Orders</span>
               </div>

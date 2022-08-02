@@ -1,0 +1,15 @@
+.contact-container {
+ display: flex;
+}
+
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 2%;
+    background-color: #656865;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+}
