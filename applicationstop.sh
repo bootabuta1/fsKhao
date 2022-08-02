@@ -1,1 +1,1 @@
-pm2 stop "npm run start" --freshkhao
+pm2 stop "freshkhao"
