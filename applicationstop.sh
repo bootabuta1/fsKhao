@@ -1,1 +1,1 @@
-pm2 stop "npm run start"
+pm2 stop 
