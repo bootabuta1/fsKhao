@@ -3,14 +3,18 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu
+    destination: /home/ubuntu/freshkhao
 hooks:
-  AfterInstall:
-    - location: afterinstall.sh
+  ApplicationStop:   
+    - location: applicationstop.sh
+      timeout: 100
+  DownloadBundle:   
+    - location: downloadbundle.sh
+      timeout: 100    
+  Install:
+    - location: install.sh
       timeout: 100
   ApplicationStart:
     - location: applicationstart.sh
       timeout: 100
-  ApplicationStop:   
-    - location: applicationstop.sh
-      timeout: 100 
+   
